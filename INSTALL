@@ -1,0 +1,12 @@
+Requirements
+------------
+* Python
+* wxPython
+
+Installation
+------------
+DivvyUp can be started without an installation:
+$ python divvyup.py
+
+Alternatively, you can use the included setup script:
+# python setup.py install

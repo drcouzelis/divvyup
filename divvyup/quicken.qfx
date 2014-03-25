@@ -1,0 +1,275 @@
+OFXHEADER:101
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+            <CODE>0
+            <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20120126210640.000[-5:EST]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>Navy Federal Credit Union
+                <FID>11281
+            </FI>
+            <INTU.BID>11281
+            <INTU.USERID>0000000005738597
+        </SONRS>
+    </SIGNONMSGSRSV1>
+
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>0
+            <STATUS>
+            <CODE>0
+            <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>USD
+                <BANKACCTFROM>
+                    <BANKID>256074974
+                    <ACCTID>0620283739      
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20120101
+                    <DTEND>20120126
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120125
+                        <TRNAMT>-112.24
+                        <FITID>20120125062500000002
+                        <NAME>USAA P&C     PREMIUMPAY         
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120125
+                        <TRNAMT>-314.3
+                        <FITID>20120125009000000001
+                        <NAME>Trf To Loan                     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120124
+                        <TRNAMT>-31.79
+                        <FITID>20120124010700000002
+                        <NAME>SUPER STOP & SHOP #682 GROTON   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120124
+                        <TRNAMT>-9.01
+                        <FITID>20120124010700000001
+                        <NAME>SHOPRITE NEW LONDON S1 NEW LONDO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120123
+                        <TRNAMT>-31.92
+                        <FITID>20120123010700000001
+                        <NAME>SHELL OIL 57525037   GROTON     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120120
+                        <TRNAMT>-1194.56
+                        <FITID>20120120050010000003
+                        <CHECKNUM>1229
+                        <NAME>Paid Check 1229                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120120
+                        <TRNAMT>-123.18
+                        <FITID>20120120062500000002
+                        <NAME>NIAGARA MOHAWK  ONLINE PMT      
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120120
+                        <TRNAMT>-60.64
+                        <FITID>20120120010700000001
+                        <NAME>ATTM*319011262711N   8003310500 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120119
+                        <TRNAMT>-22
+                        <FITID>20120119050010000001
+                        <CHECKNUM>1227
+                        <NAME>Paid Check 1227                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120117
+                        <TRNAMT>-54.63
+                        <FITID>20120117010700000003
+                        <NAME>OLIO LLC        GROTON          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120117
+                        <TRNAMT>-37.04
+                        <FITID>20120117010700000002
+                        <NAME>SUPER STOP & SHOP #682 GROTON   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120117
+                        <TRNAMT>-25
+                        <FITID>20120117010700000001
+                        <NAME>EZ PASS PREPAID TO   800-333-865
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120113
+                        <TRNAMT>-9.95
+                        <FITID>20120113062500000001
+                        <NAME>AT&T       ONLINE PMT           
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120112
+                        <TRNAMT>-170.51
+                        <FITID>20120112050010000003
+                        <CHECKNUM>5009
+                        <NAME>Paid Check 5009                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120112
+                        <TRNAMT>-39.83
+                        <FITID>20120112050010000002
+                        <CHECKNUM>5010
+                        <NAME>Paid Check 5010                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>CREDIT
+                        <DTPOSTED>20120112
+                        <TRNAMT>2154.26
+                        <FITID>20120112061500000001
+                        <NAME>Deposit ELECTRIC BOAT CODIR DEP 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120111
+                        <TRNAMT>-3.99
+                        <FITID>20120111010700000001
+                        <NAME>SUPER STOP & SHOP   GROTON      
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120110
+                        <TRNAMT>-54.81
+                        <FITID>20120110010700000001
+                        <NAME>SUPER STOP & SHOP #682 GROTON   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120109
+                        <TRNAMT>-83.81
+                        <FITID>20120109009000000001
+                        <NAME>Trf To Credit Card              
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120105
+                        <TRNAMT>-5945.16
+                        <FITID>20120105050010000002
+                        <CHECKNUM>5005
+                        <NAME>Paid Check 5005                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120105
+                        <TRNAMT>-5.32
+                        <FITID>20120105010700000001
+                        <NAME>SUBWAY    0033   GROTON         
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120104
+                        <TRNAMT>-950
+                        <FITID>20120104050010000002
+                        <CHECKNUM>5006
+                        <NAME>Paid Check 5006                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120104
+                        <TRNAMT>-688
+                        <FITID>20120104050010000001
+                        <CHECKNUM>1228
+                        <NAME>Paid Check 1228                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-1310.42
+                        <FITID>20120103062500000007
+                        <NAME>HSBC MORTGAGE CO ONLINE PMT     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-53.14
+                        <FITID>20120103010700000006
+                        <NAME>SUPER STOP & SHOP #682 GROTON   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-42.46
+                        <FITID>20120103010700000005
+                        <NAME>SHELL OIL 57525037   GROTON     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-39.62
+                        <FITID>20120103010700000004
+                        <NAME>SUPER STOP & SHOP #682 GROTON   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-29.11
+                        <FITID>20120103010700000003
+                        <NAME>SHOPRITE NEW LONDON S1 NEW LONDO
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-5.4
+                        <FITID>20120103010700000002
+                        <NAME>SUBWAY    0022   CICERO         
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>DEBIT
+                        <DTPOSTED>20120103
+                        <TRNAMT>-5.38
+                        <FITID>20120103010700000001
+                        <NAME>TACO BELL #04976    CICERO      
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>5785.83
+                    <DTASOF>20120126210640.000[-5:EST]
+                </LEDGERBAL>
+                <AVAILBAL>
+                    <BALAMT>5785.83
+                    <DTASOF>20120126210640.000[-5:EST]
+                </AVAILBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>

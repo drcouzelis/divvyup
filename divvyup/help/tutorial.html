@@ -1,0 +1,110 @@
+<html>
+<body>
+
+<h1>DivvyUp Personal Finance</h1>
+
+<h2>Introduction</h2>
+
+<p>DivvyUp is a personal finance budgeting application. It's based on the simple "envelope system" of budgeting. DivvyUp was designed to help me budget my money, but I hope you find it helpful too. Please budget your own money, though. Not mine.</p>
+
+<p>I'll go ahead and keep this tutorial nice and international. Instead of referring to "dollars" or "euros" or something other currency, I'll use the term "monies".</p>
+
+<h3>Why Use DivvyUp</h3>
+
+<p>Using DivvyUp isn't all that different from keeping your budget in a simple spreadsheet. Actually, the DVY file format that DivvyUp uses is a spreadsheet itself! (It's a standard CSV text file, in case you're interested) Some reasons I choose to use DivvyUp:
+
+<ul>
+<li>It loads quickly</li>
+<li>It makes making changes to my budget quick and easy</li>
+<li>It's cross platform</li>
+<li>It's free and open source software</li>
+<ul>
+
+Maybe it's not the right budgeting application for you. Maybe it is. Maybe you'll find you like to use DivvyUp because you like the hot DivvyUp icon. That probably won't be the case, but it could happen.<p>
+
+<h3>The Envelope System</h3>
+
+<p>Imagine you have all of your money stashed as cash underneath your bed. The bed's not important, but what is important is that you imagine you have all of your money as cash. Now imagine grabbing a wad of envelopes. (Do envelopes "wad"?) Start labeling them with the different types of things you spend your money on. Here are some examples: groceries, rent, entertainment, utilities, auto, and donations to open source software developers.</p>
+
+<p>Next, start putting all of your cash into each of those envelopes. The money that you have in an envelope is the amount you are allowed to spend on that particular category. Sure, you can shuffle money around between different envelopes, but, in the end, if you don't have enough money for what you want to buy in an envelope, then you don't buy it. Money doesn't grow on trees, you know.</p>
+
+<p>Once in a while you might obtain some money, such as weekly from a job. When you get some new cash, you do what you did before: split it up and put it into the different envelopes. You are now using the envelope system.</p>
+
+<p>You can read a much better description of the envelope system on the Wikipedia:
+
+http://en.wikipedia.org/wiki/Envelope_system
+
+<p>The envelope system is nice because it is super simple, it prevents you from spending more than you have, and you can easily accumulate money in an envelope as you save. DivvyUp won't take your money and put it in an actual envelope for you, but it does help you simulate that action. Let's find out how.</p>
+
+<h2>Getting Started</h2>
+
+<p>In DivvyUp, a budget is made up of envelopes. An envelope has two things: a name (Such as "Groceries") and an amount. (Such as 50.00 monies) You can do two things to an envelope: put money in and take money out. Every time you do that, DivvyUp records it as a "transaction". You now know every feature of DivvyUp. ...alright, there's a few more, but those are the main ones.</p>
+
+<p>On the main DivvyUp window, you'll see your envelopes listed on the left (Unless you haven't added any yet.) When you select an envelope, you'll see the transactions that were done on that envelope on the right.</p>
+
+<h2>Buttons and Stuff</h2>
+
+<h3>Budget Controls</h3>
+
+<p>A new empty budget is created when DivvyUp starts. Everything in the "Budget" menu should look very familiar to you, assuming you've been using a computer for more than a week. The exception is the "Combine" command. I'll talk more about that one later.</p>
+
+<p>You can undo or redo any change you make to a budget by using the commands found in the "Edit" menu.</p>
+
+<h3>Envelope Controls</h3>
+
+<p>You can start adding and changing envelopes in your budget by using the commands found in the "Envelope" menu. Some of the envelope controls only work after you have selected an envelope. For example, you can't "Remove" an envelope until you have selected one from the list.</p>
+
+<h3>Transaction Controls</h3>
+
+<p>Similar to the envelope controls, the transaction controls are used to edit the transactions on an envelope.</p>
+
+<h3>Miscellaneous Controls</h3>
+
+<p>This one's my favorite: double click an envelope to remove money from it. That's what people do the most with a budget, right? They take money out. Might as well make it the easiest thing to do.</p>
+
+<p>See that vertical slidey-bar thing in the middle of the window? You can double click that to put it back to its default location. Fancy, I know.</p>
+
+<h3>Shortcuts</h3>
+
+<p>All of the keyboard shortcuts can be found in the menus. If you press every key on your keyboard at once, DivvyUp will give you a million dollars. I mean, monies.</p>
+
+<h2>Combine Budgets</h2>
+
+<p>You see that command in the "Budget" menu? The one that says "Combine"? If you click on that, a window pops up that allows you to select a DVY DivvyUp file. And when you do, EnBudet will add the amounts in the envelopes in the selected budget to the envelopes in the current budget. This shouldn't be a big surprise to you. After all, the command is called "combine".</p>
+
+<p>Now that I've explained WHAT the combine command does, I'd like to explain WHY it's there. I mentioned above that the most common thing you'll probably do with your budget is take money out of it. The second most common thing you'll do probably do with your budget is add money to it. It make be weekly, monthly, or some other interval, but you'll be adding money to it sometime, and the "combine" command makes the process easier. Here's how.</p>
+
+<p>Let's pretend you need to add 100 monies to your budget every week. Create a new budget and name it "weekly-100.enb". Add some envelopes to the new budget. You probably want the envelopes in the new budget to match the list of envelopes in your original budget. Put in the amount of money that you'd like to add to each envelope each week. You should make the amount of all of the envelopes added together equal 100 monies.</p>
+
+<p>Now, go back to your original budget. (By opening it) When you are ready to add 100 monies to your budget, "combine" it with the new "weekly-100.enb" budget. Ta-da! That's it!</p>
+
+
+<i>The budget "budget.enb"...</i>
+<ul>
+<li>Groceries: 200.00</li>
+<li>Misc: 50.00</li>
+<li>Rent: 20.00</li>
+</ul>
+
+<i>...combined with the budget "weekly-100.enb"...</i>
+<ul>
+<li>Groceries: 25.00</li>
+<li>Misc: 25.00</li>
+<li>Rent: 50.00</li>
+</ul>
+
+<i>...changes it to this!</i>
+<ul>
+<li>Groceries: 225.00</li>
+<li>Misc: 75.00</li>
+<li>Rent: 70.00</li>
+</ul>
+
+<h2>Support</h2>
+
+<p>You can email me, David Couzelis, at <a href=mailto:drcouzelis@gmail.com>drcouzelis@gmail.com</a> with comments, questions, or suggestions, or visit the DivvyUp website at <a href=http://sourceforge.net/projects/enbudget/>http://sourceforge.net/projects/enbudget/</a>.</p>
+
+<p>Thank you, and happy budgeting!</p>
+
+</body>
+</html>

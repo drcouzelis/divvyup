@@ -1,0 +1,10 @@
+README
+setup.py
+divvyup/__init__.py
+divvyup/divvyup.py
+divvyup/interface.py
+divvyup/icons/divvyup16x16.png
+divvyup/icons/divvyup32x32.png
+divvyup/icons/divvyup48x48.png
+divvyup/icons/divvyup64x64.png
+script/divvyup
