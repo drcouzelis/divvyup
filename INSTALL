@@ -10,3 +10,58 @@ $ python divvyup.py
 
 Alternatively, you can use the included setup script:
 # python setup.py install
+
+Further instructions
+--------------------
+
+============================================
+How to Install EnBudget in Microsoft Windows
+============================================
+
+------------------------------------------------------------------------------
+NOTE: It isn't necessary to use the TAR GZIP package anymore. I added a ZIP package for Windows users.
+------------------------------------------------------------------------------
+
+After you download EnBudget you will need to unpackage it. Although the ".tar.gz" (a TAR file compressed using GZIP) is a common archive format used on Unix-like systems, Windows doesn't know what to do with it. Almost any third-party archival software will support it though. I recommend 7-Zip.
+
+7-Zip (free and open source)
+http://www.7-zip.org/
+
+------
+Python
+------
+
+Next, you will need to install Python. EnBudget was made using Python. Please download either the 32 bit or 64 bit version.
+
+32 bit (x86): http://python.org/ftp/python/2.7.1/python-2.7.1.msi
+
+== or ==
+
+64 bit (amd64): http://python.org/ftp/python/2.7.1/python-2.7.1.amd64.msi
+
+--------
+wxPython
+--------
+
+Lastly, you will need to install wxPython. This was used to make the EnBudget user interface.
+
+32 bit (x86): http://downloads.sourceforge.net/wxpython/wxPython2.8-win32-unicode-2.8.11.0-py27.exe
+
+== or ==
+
+64 bit (amd64): http://downloads.sourceforge.net/wxpython/wxPython2.8-win64-unicode-2.8.11.0-py27.exe
+
+-----------------
+Starting EnBudget
+-----------------
+
+Double click the "enbudget.py" file. If Python is installed correctly then EnBudget will start.
+
+If you don't want to see a command prompt window every time you run EnBudget (and you probably don't), then simply rename the file:
+
+== from ==
+enbudget.py
+== to ==
+enbudget.pyw
+
+That's it!
